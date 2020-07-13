@@ -46,7 +46,7 @@ for p = 0:precision
     for i = 1:length(dc)
         for j = 1:length(dc)
             
-            imew(:,:,i,j) = imag(cewpc(nbed,1, center+[dc(i),dc(j)]));
+            imew(:,:,i,j) = imag(ewcc(nbed,1, center+[dc(i),dc(j)]));
             
         end
     end
